@@ -8,7 +8,7 @@ timezone: Asia/Shanghai
 
 # URL
 ## Set your site url here. For example, if you use GitHub Page, set url as 'https://username.github.io/project'
-url: http://localhost:4000
+url: https://c-boy-t.github.io
 permalink: :year/:month/:day/:title/
 permalink_defaults:
 pretty_urls:
@@ -95,5 +95,14 @@ theme: fluid
 
 # Deployment
 ## Docs: https://hexo.io/docs/one-command-deployment
-deploy:
-  type: ''
+# deploy:
+#   type: git
+#   repo: git@github.com:c-boy-t/c-boy-t.github.io.git
+#   branch: gh-pages
+#   token: $GITHUB_PAT_TOKEN
+#   message: [message]
+#   name: c-t-boy
+#   email: '3274692202@qq.com'
+#   extend_dirs: [extend directory]
+#   ignore_hidden: false # default is true
+#   ignore_pattern: regexp  # whatever file that matches the regexp will be ignored when deploying
