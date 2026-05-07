@@ -1,0 +1,47 @@
+.post-content .markdown-body {
+  line-height: 1.9;
+  font-size: 16px;
+}
+
+.post-content .markdown-body h2,
+.post-content .markdown-body h3,
+.post-content .markdown-body h4 {
+  scroll-margin-top: 96px;
+}
+
+.post-content .markdown-body blockquote {
+  border-left: 4px solid #2563eb;
+  background: rgba(37, 99, 235, 0.06);
+  padding: 0.9rem 1rem;
+  border-radius: 12px;
+}
+
+.post-content .markdown-body table {
+  display: block;
+  width: 100%;
+  overflow-x: auto;
+  border-collapse: collapse;
+}
+
+.post-content .markdown-body th,
+.post-content .markdown-body td {
+  white-space: nowrap;
+}
+
+.post-content .markdown-body pre {
+  border-radius: 14px;
+}
+
+.post-content .markdown-body code {
+  word-break: break-word;
+}
+
+.post-content .markdown-body img {
+  border-radius: 12px;
+}
+
+@media (max-width: 768px) {
+  .post-content .markdown-body {
+    font-size: 15px;
+  }
+}

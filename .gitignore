@@ -1,0 +1,47 @@
+# OS generated files
+# ------------------
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+desktop.ini
+
+# Log files
+# ---------
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Hexo core files (Generated automatically)
+# -----------------------------------------
+db.json
+public/
+.deploy*/
+.deploy_git/
+_multiconfig.yml
+
+# Dependencies
+# ------------
+node_modules/
+
+# IDE / Editor settings
+# ---------------------
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+
+# Theme specific git folders (Prevents submodule errors)
+# ------------------------------------------------------
+# If you clone themes via git, they contain .git folders.
+# You usually want to remove these to treat themes as regular files.
+themes/*/ .git/
+themes/*/ .gitignore
+
+# mcp
+.playwright-mcp
